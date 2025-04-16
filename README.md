@@ -1,4 +1,4 @@
-# Capstone Template
+# Capstone Template UPDATE
 
 This is a template repository for setting up your capstone project: it includes a simple folder structure and placeholder files for the most important assets you will be creating.
 
@@ -29,14 +29,38 @@ Feel free to rename the folder and customize the project structure to best fit y
 
 ------------------------------------------------------------------------------
 
-## Project Title
+## Diabetes Risk Prediction using Machine Learning
 =========================
 
-### Executive Summary
+### Problem Area
 
-... Define the problem
-... What is the data science opportunity
-... Key takeaways
+The goal of the project is reducing the risk of diabetes by identifying factors that lead to the disease and use that information to formulate prevention methods. The project seeks to address the relationship between a patient’s biomarkers (e.g. blood pressure and glucose levels) and lifestyle habits that are considered unhealthy.
+
+### Impact
+
+The potential impact of this project includes:
+
+1. Supporting and growing a heathier community.
+2. Better health education to any affected communities.
+
+### Dataset Description
+
+Our analysis utilizes a dataset of females from the Gila River Indian community in Arizona. The dataset includes:
+
+1.	Age, Pregnancies, and Outcomes of getting diabetes or not.
+2.	Biomarkers (blood pressure, glucose, insulin, body mass index)
+
+### Data Dictionary 
+
+1. Pregnancies (int64): number of pregnancies a female has
+2. Glucose (float64): sugar levels in blood in milligrams per deciliter (mg/dl)
+3. Blood pressure (float64): blood circulation throughout the body in millimeters of mercury (mmHg)
+4. Skin thickness (float64): hard and swollen looking skin in millimeters (mm)
+5. Insulin (float64): transfers glucose from bloodstream into cells measured in units.
+6. Body Mass Index (float64): body fat in weight per height (kg/m^2).
+7. Diabetes Pedigree Function (float64): likelihood on developing diabetes based on family history.
+8. Outcome (int64): outcomes of getting diabetes or not, 0 for no diabetes and 1 for diabetes.
+9. Age (int64)
 
 ### Demo
 
