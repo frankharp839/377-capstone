@@ -36,6 +36,19 @@ Feel free to rename the folder and customize the project structure to best fit y
 
 The goal of the project is reducing the risk of diabetes by identifying factors that lead to the disease and use that information to formulate prevention methods. The project seeks to address the relationship between a patient’s biomarkers (e.g. blood pressure and glucose levels) and lifestyle habits that are considered unhealthy.
 
+### Proposed Data Science Solution
+
+We aim to develop models to predict the risk of diabetes:
+
+1.	Logistic Regression
+2.	Random Forest
+3.	Neural Network
+
+These models will:
+
+- Provide insight of what is influencing diabetes. 
+- Identify strategies to manage the risk of the disease. 
+
 ### Impact
 
 The potential impact of this project includes:
@@ -52,30 +65,21 @@ Our analysis utilizes a dataset of females from the Gila River Indian community 
 
 ### Data Dictionary 
 
-1. Pregnancies (int64): number of pregnancies a female has
+1. Pregnancies (int64): number of pregnancies each female has
 2. Glucose (float64): sugar levels in blood in milligrams per deciliter (mg/dl)
 3. Blood pressure (float64): blood circulation throughout the body in millimeters of mercury (mmHg)
 4. Skin thickness (float64): hard and swollen looking skin in millimeters (mm)
-5. Insulin (float64): transfers glucose from bloodstream into cells measured in units.
-6. Body Mass Index (float64): body fat in weight per height (kg/m^2).
-7. Diabetes Pedigree Function (float64): likelihood on developing diabetes based on family history.
-8. Outcome (int64): outcomes of getting diabetes or not, 0 for no diabetes and 1 for diabetes.
+5. Insulin (float64): transfers glucose from bloodstream into cells measured in units
+6. Body Mass Index (float64): body fat in weight per height (kg/m^2)
+7. Diabetes Pedigree Function (float64): likelihood on developing diabetes based on family history
+8. Outcome (int64): outcomes of getting diabetes or not, 0 for no diabetes and 1 for diabetes
 9. Age (int64)
 
-### Demo
+### Next Steps
 
-... Show your work:
-...     Data visualizations
-...     Interactive demo (e.g., `streamlit` app)
-...     Short video of users trying out the solution
-
-
-### Methodology
-
-... High-level diagrams of entire process:
-...     various data processing steps
-...     various modelling directions
-...     various prototyping directions
+1. Handling outliers.
+2. Train a chosen model.
+3. Expand modeling techniques. 
 
 
 ### Organization
@@ -119,4 +123,4 @@ Our analysis utilizes a dataset of females from the Gila River Indian community 
 
 ### Credits & References
 
-... Include any personal learning
+https://www.youtube.com/watch?v=GP-2634exqA&t=2907s
