@@ -56,17 +56,16 @@ The potential impact of this project includes:
 - **Raw Files:** Located under `data/raw/` (e.g., `transactions.csv`, `users.json`)  
 - **Processed Files:** Produced by your cleaning pipeline in `data/processed/`
 
-Our analysis utilizes a dataset of females from the Gila River Indian community in Arizona. The dataset includes:
-
-1.	Age (int64), Pregnancies (int64), and Outcomes (int64) of getting diabetes or not.
-2.	Biomarkers (Blood Pressure (float64), Glucose (float64), Insulin (float64), Body Mass Index (float64), Diabetes Pedigree Function (float64))
-
-
 | File name | Description |
 |-----------|-------------|
 | `data/raw/dataset.csv` | Original full dataset |
 | `data/processed/train.csv` | Cleaned & feature‑engineered training set |
 | `data/processed/test.csv`  | Cleaned & feature‑engineered test set |
+
+Our analysis utilizes a dataset of females from the Gila River Indian community in Arizona. The dataset includes:
+
+1.	Age (int64), Pregnancies (int64), and Outcomes (int64) of getting diabetes or not.
+2.	Biomarkers (Blood Pressure (float64), Glucose (float64), Insulin (float64), Body Mass Index (float64), Diabetes Pedigree Function (float64))
 
 
 ---
