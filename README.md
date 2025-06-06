@@ -1,5 +1,4 @@
 # Diabetes Risk prediction using Machine Learning 
-*Francisco Montero* | *MATH 377: Applied Statistics and Probability* | *Spring / 2025*
 
 ---
 
