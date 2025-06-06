@@ -1,4 +1,5 @@
 # Diabetes Risk prediction using Machine Learning 
+*Frank* | *MATH 377: Applied Statistics and Probability* | *Spring / 2025*
 
 ---
 
